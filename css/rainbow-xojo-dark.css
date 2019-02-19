@@ -106,4 +106,16 @@ pre .operator {
   color: #a5a4a4; }
 
 pre .directive {
-  color: #FD8F3F; }
+  color: #fd8f3f; }
+
+pre .color.operator {
+  color: #a5a4a4; }
+
+pre .color.red {
+  color: #ea5d55; }
+
+pre .color.green {
+  color: #82f067; }
+
+pre .color.blue {
+  color: #469ef5; }

@@ -107,3 +107,15 @@ pre .operator {
 
 pre .directive {
   color: #643820; }
+
+pre .color.operator {
+  color: #000; }
+
+pre .color.red {
+  color: #a12915; }
+
+pre .color.green {
+  color: #4da72e; }
+
+pre .color.blue {
+  color: #0826a9; }
