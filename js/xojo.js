@@ -30,9 +30,10 @@ Rainbow.extend('xojo', [
             1: 'color.operator',
             2: 'color.red',
             3: 'color.green',
-            4: 'color.blue'            
+            4: 'color.blue',
+            5: 'color.alpha'         
         },
-        pattern: /(&amp;c)([A-Fa-f0-9]{2})([A-Fa-f0-9]{2})([A-Fa-f0-9]{2})\b/gi
+        pattern: /(&amp;c)([A-Fa-f0-9]{2})([A-Fa-f0-9]{2})([A-Fa-f0-9]{2})([A-Fa-f0-9]{2})\b/gi
     },
 
     // Types and keywords.
