@@ -24,6 +24,17 @@ Rainbow.extend('xojo', [
         pattern: /\b(\d+\.?\d*([e][-+]*\d+)?)|((&amp;)h[A-Fa-f0-9]+)\b|((&amp;)b[01]+)\b|((&amp;)o[0-7]+)\b/gi
     },
 
+    // Colours
+    {
+        matches: {
+            1: 'color.operator',
+            2: 'color.red',
+            3: 'color.green',
+            4: 'color.blue'            
+        },
+        pattern: /(&amp;c)([A-Fa-f0-9]{2})([A-Fa-f0-9]{2})([A-Fa-f0-9]{2})\b/gi
+    },
+
     // Types and keywords.
     {
         name: 'keyword.type',
