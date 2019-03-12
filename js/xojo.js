@@ -5,6 +5,12 @@
  */
 Rainbow.extend('xojo', [
     {
+        name: 'string',
+        pattern: /".*?"/g
+
+    },
+
+    {
         name: 'comment',
         pattern: /(\/\/|rem|').*$/igm
     },
@@ -31,7 +37,7 @@ Rainbow.extend('xojo', [
             2: 'color.red',
             3: 'color.green',
             4: 'color.blue',
-            5: 'color.alpha'         
+            5: 'color.alpha'
         },
         pattern: /(&amp;c)([A-Fa-f0-9]{2})([A-Fa-f0-9]{2})([A-Fa-f0-9]{2})([A-Fa-f0-9]{2})?\b/gi
     },
@@ -44,10 +50,6 @@ Rainbow.extend('xojo', [
     {
         name: 'keyword',
         pattern: /\b(AddHandler|AddressOf|And|Array|As|Assigns|Break|ByRef|ByVal|Call|Case|Catch|Class|Const|Continue|CType|Declare|Delegate|Dim|Do|DownTo|Each|Else|ElseIf|End|Enum|Event|Exception|Exit|Extends|Finally|For|Function|Global|GoTo|If|Implements|In|Inherits|Interface|Is|IsA|Lib|Loop|Me|Mod|Module|New|Next|Nil|Not|Object|Optional|Or|ParamArray|Private|Property|Protected|Public|Raise|RaiseEvent|Redim|RemoveHandler|Return|Select|Self|Shared|Soft|Static|Step|Structure|Sub|Super|Then|To|Try|Until|Using|WeakAddressOf|Wend|While|Xor)\b/gi
-    },
-    {
-        name: 'string',
-        pattern: /".*"/g
     },
 
     // Compiler directives.
