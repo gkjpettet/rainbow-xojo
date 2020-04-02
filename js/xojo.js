@@ -45,11 +45,11 @@ Rainbow.extend('xojo', [
     // Types and keywords.
     {
         name: 'keyword.type',
-        pattern: /\b(Boolean|True|False|String|Text|Integer|Double|Int8|Int16|Int32|Int64|UInt8|UInt16|UInt32|UInt64)\b/gi
+        pattern: /\b(Auto|Boolean|Byte|CGFloat|CFStringRef|Color|CString|Currency|Delegate|Double|False|Int8|Int16|Int32|Int64|Integer|Object|PString|Ptr|Short|Single|String|Text|True|UInt8|UInt16|UInt32|UInt64|UInteger|WindowPtr|WString)\b/gi
     },
     {
         name: 'keyword',
-        pattern: /\b(AddHandler|AddressOf|And|Array|As|Assigns|Break|ByRef|ByVal|Call|Case|Catch|Class|Const|Continue|CType|Declare|Delegate|Dim|Do|DownTo|Each|Else|ElseIf|End|Enum|Event|Exception|Exit|Extends|Finally|For|Function|Global|GoTo|If|Implements|In|Inherits|Interface|Is|IsA|Lib|Loop|Me|Mod|Module|New|Next|Nil|Not|Object|Optional|Or|ParamArray|Private|Property|Protected|Public|Raise|RaiseEvent|Redim|RemoveHandler|Return|Select|Self|Shared|Soft|Static|Step|Structure|Sub|Super|Then|To|Try|Until|Using|WeakAddressOf|Wend|While|Xor)\b/gi
+        pattern: /\b(AddHandler|AddressOf|And|Array|As|Assigns|Break|ByRef|ByVal|Call|Case|Catch|Class|Const|Continue|CType|Declare|Dim|Do|DownTo|Each|Else|ElseIf|End|Enum|Event|Exception|Exit|Extends|Finally|For|Function|Global|GoTo|If|Implements|In|Inherits|Interface|Is|IsA|Lib|Loop|Me|Mod|Module|New|Next|Nil|Not|Optional|Or|ParamArray|Private|Property|Protected|Public|Raise|RaiseEvent|Redim|RemoveHandler|Return|Select|Self|Shared|Soft|Static|Step|Structure|Sub|Super|Then|To|Try|Until|Using|WeakAddressOf|Wend|While|Xor)\b/gi
     },
 
     // Compiler directives.
