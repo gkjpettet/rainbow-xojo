@@ -1,7 +1,7 @@
 /**
  * Xojo language patterns
  *
- * @author Dr Garry Pettet
+ * @author Dr Garry Pettet - https://garrypettet.com
  */
 Rainbow.extend('xojo', [
     {
