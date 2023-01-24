@@ -49,7 +49,7 @@ Rainbow.extend('xojo', [
     },
     {
         name: 'keyword',
-        pattern: /\b(AddHandler|AddressOf|And|Array|As|Assigns|Break|ByRef|ByVal|Call|Case|Catch|Class|Const|Continue|CType|Declare|Dim|Do|DownTo|Each|Else|ElseIf|End|Enum|Event|Exception|Exit|Extends|Finally|For|Function|Global|GoTo|If|Implements|In|Inherits|Interface|Is|IsA|Lib|Loop|Me|Mod|Module|New|Next|Nil|Not|Optional|Or|ParamArray|Private|Property|Protected|Public|Raise|RaiseEvent|Redim|RemoveHandler|Return|Select(?:or)?|Self|Shared|Soft|Static|Step|Structure|Sub|Super|Then|To|Try|Until|Using|Var|WeakAddressOf|Wend|While|Xor)\b/gi
+        pattern: /\b(AddHandler|AddressOf|And|Array|As|Assigns|Break|ByRef|ByVal|Call|Case|Catch|Class|Const|Continue|CType|Declare|Dim|Do|DownTo|Each|Else|ElseIf|End|Enum|Event|Exception|Exit|Extends|Finally|For|Function|Get|Global|GoTo|If|Implements|In|Inherits|Interface|Is|IsA|Lib|Loop|Me|Mod|Module|New|Next|Nil|Not|Optional|Or|ParamArray|Private|Property|Protected|Public|Raise|RaiseEvent|Redim|RemoveHandler|Return|Select(?:or)?|Self|Set|Shared|Soft|Static|Step|Structure|Sub|Super|Then|To|Try|Until|Using|Var|WeakAddressOf|Wend|While|Xor)\b/gi
     },
 
     // Compiler directives.
