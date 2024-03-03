@@ -1,20 +1,12 @@
-# Highlighting Xojo with Rainbow JS
-This repo contains a plugin and themes to allow the RainbowJS syntax highlighter to work with Xojo code
-
-[Rainbow][rainbow] is an excellent browser-based Javascript syntax highlighting engine. This repo contains a minified copy of the main library (`rainbow.min.js`) and an additional file (`xojo.js`) that contains the definitions required to highlight Xojo code. Additionally, I have provided CSS and SASS files to style the highlighted code. There are both light and dark themes.
+# Highlighting Xojo with Rainbow.js
+Xojo language definition for the excellent browser-based [Rainbow.js] syntax highlighter.
 
 ## Usage
-Include the Rainbow script and Xojo definitions before the closing `</body>` tag:
+Include the `rainbow-xojo.js` script after the `rainbow.js` library before the closing `</body>` tag:
 
 ```html
 <script src="js/rainbow.min.js"></script>
-<script src="js/xojo.js"></script> 
+<script src="js/rainbow-xojo.js"></script> 
 ```
 
-Within the `<head>` of the page, include the CSS (light or dark, whatever you prefer):
-
-```html
-<link rel="stylesheet" href="css/rainbow-xojo-light.css">
-```
-
-[rainbow]: https://github.com/ccampbell/rainbow
+[rainbow.js]: https://github.com/ccampbell/rainbow
